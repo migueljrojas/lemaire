@@ -1,0 +1,135 @@
+.detail {
+    &__hero {
+        background: $darkBlue;
+        color:$white;
+        text-align: center;
+        padding-top: 200px;
+        padding-bottom: 50px;
+    }
+    &__title {
+        color:$white;
+        margin-bottom: $base/2;
+    }
+    &__desc {
+        font-size: 18px;
+    }
+    &__content{
+        padding-top: $base;
+        padding-bottom: $base;
+
+        @include breakpoint(md){
+            padding-top: $base*2;
+            padding-bottom: $base*2;
+        }
+    }
+    &__col {
+        padding: 15px;
+        background: $white;
+        border-top:5px solid $blue;
+        margin-bottom: 30px;
+    }
+    &__divider{
+        width: 100%;
+        height: 0;
+        border-top: 1px dotted $blue;
+        margin: 20px 0;
+    }
+    &__features {
+        li {
+            background: $bgSecondary;
+            color:$blue;
+            padding: 5px;
+            margin-bottom: 5px;
+        }
+    }
+    &__gallery {
+        overflow: hidden;
+        height: 60px;
+
+        @include breakpoint(sm) {
+            height: 150px;
+        }
+
+        img {
+            position: absolute;
+            top:0;
+            left:0;
+            height: 100%;
+        }
+    }
+    &__contacto__form {
+        width: 100%;
+        padding-bottom: 20px;
+
+        &-group{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        &-input{
+            border-radius: 20px;
+            border:none;
+            background:$blue;
+            height: 40px;
+            padding: 0 20px;
+            color:$white;
+            margin-bottom: 10px;
+
+            &:focus {
+                outline: none;
+            }
+        }
+
+        ::-webkit-input-placeholder{ /* Firefox 18- */
+            color: rgba(255,255,255,.5);
+        }
+        ::-moz-placeholder{ /* Firefox 18- */
+            color: rgba(255,255,255,.5);
+        }
+        :-ms-input-placeholder{ /* Firefox 18- */
+            color: rgba(255,255,255,.5);
+        }
+        :-moz-placeholder { /* Firefox 18- */
+            color: rgba(255,255,255,.5);
+        }
+
+        input {
+            width: 100%;
+            @include breakpoint(md){
+                max-width: 180px;
+            }
+            @include breakpoint(lg){
+                max-width: 210px;
+            }
+        }
+
+        &-label{
+            color:$blue;
+        }
+
+        textarea {
+            min-height: 120px;
+            width: 100%;
+            padding-top: 20px;
+            padding-bottom: 40px;
+        }
+
+        ._button.-white {
+            border:1px solid $blue;
+            margin-top: -25px;
+            float: right;
+            position: relative;
+            z-index: 2;
+        }
+    }
+
+    .faq__answer p{
+        padding-bottom: 20px;
+    }
+
+    .dropdown {
+        background: $bgSecondary;
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+}

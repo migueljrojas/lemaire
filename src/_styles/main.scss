@@ -1,0 +1,78 @@
+// Normalize Styles
+@import 'node_modules/normalize.css/normalize';
+@import 'bower_components/font-awesome/scss/font-awesome';
+@import 'bootstrap';
+@import 'https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i';
+@import 'bower_components/slick-carousel/slick/slick.scss';
+@import 'animate';
+@import 'ilightbox-skin';
+@import 'ilightbox';
+
+// Import Modules
+@import 'mixins';
+@import 'slick-theme';
+@import 'modules';
+@import 'pages';
+@import 'components';
+
+// Box sizing partial styles:
+// Apply a natural box layout model to all elements
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: $mainFont;
+    font-weight: 400;
+    overflow-x: hidden;
+    color:$text;
+}
+
+main,
+footer {
+    transition: all .5s $easing;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $mainFont;
+    font-weight: 900;
+    color: $textDark;
+    margin: 0;
+}
+
+h1, h2, h3 {
+    letter-spacing: -0.5px;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    color:$link;
+    transition: all $duration $easingLight;
+
+    &:hover{
+        color:$linkHover;
+        text-decoration: none;
+    }
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+// Styling on warning for users on IE7 or below
+.browsehappy {
+  text-align: center;
+  margin: 0;
+  background: #fff8e2;
+  color: #000;
+  padding: 0.5em 0;
+}

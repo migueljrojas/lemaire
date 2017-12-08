@@ -1,0 +1,57 @@
+header.header.-ontop
+
+    .header__hamburguer
+        span
+        span
+        span
+        
+    .header__logo
+        a(href="/")
+            img(src="/images/logo.png")
+            
+    #weather.header__weather
+        
+    nav.header__nav.header__nav--top
+        ul.header__menu
+            each item in site.data.header.top
+                li
+                    a(href=item.url)= item.name
+                    if item.submenu
+                        ul.header__submenu
+                            each link in item.submenu
+                                li
+                                    a(href=link.url)= link.name
+                                    
+        
+        .header__lang.dropdown            
+            select
+                option(value="Inglés") EN
+                option(value="Español") ES
+                option(value="Alemán") GER
+                
+        div(id="google_translate_element")
+        
+        script.
+             function googleTranslateElementInit() {
+                 new google.translate.TranslateElement({ pageLanguage: 'en', includedLanguages: 'en,es,de', layout: google.translate.TranslateElement.InlineLayout.SIMPLE }, 'google_translate_element');
+             }
+        
+        script(src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit")
+                            
+    
+        ul.header__social
+            each red in site.data.social
+                li
+                    a(href=red.url, target="_blank")
+                        i(class="fa fa-#{red.name}")
+                        
+    nav.header__nav.header__nav--bottom
+        ul.header__menu
+            each item in site.data.header.bottom
+                li
+                    a(href=item.url)= item.name
+                    if item.submenu
+                        ul.header__submenu
+                            each link in item.submenu
+                                li
+                                    a(href=link.url)= link.name

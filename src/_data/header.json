@@ -1,0 +1,34 @@
+{
+    "top": [
+        {
+            "name":"FAQ",
+            "url":"/faq"
+        },
+        {
+            "name":"About",
+            "url":"/about"
+        },
+        {
+            "name":"Contact us",
+            "url":"/contact"
+        }
+    ],
+    "bottom": [
+        {
+            "name":"Trips",
+            "url":"/all-trips"
+        },
+        {
+            "name":"Ships",
+            "url":"/all-ships"
+        },
+        {
+            "name":"Itineraries",
+            "url":"/all-destinations"
+        },
+        {
+            "name":"Patagonia",
+            "url":"/all-activities"
+        }
+    ]
+}

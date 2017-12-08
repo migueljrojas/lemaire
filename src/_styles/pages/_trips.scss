@@ -1,0 +1,16 @@
+.trips {
+    .search-widget {
+        position: absolute;
+        top:-60px;
+        left:-7.5%;
+
+        ul {
+            list-style: none;
+            margin-bottom: 0;
+        }
+
+        @include breakpoint(sm) {
+            width: 115%;
+        }
+    }
+}

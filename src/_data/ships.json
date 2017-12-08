@@ -1,0 +1,213 @@
+{
+    "hero": {
+        "title": "The most comfortable options",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "img": "https://www.droomplekken.nl/wp-content/uploads/2017/02/Cruise-boot-alaska.jpg"
+    },
+    "content": [
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    ],
+    "list": [
+        {
+            "name": "Lil' Mary",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "photos": [
+                "http://www.princess.com/images/cruise-tips-vacation-ideas/cruise-destinations/alaska-vacations/princess-cruise-ship-in-glacier-bay-alaska-281474979384707.jpg",
+                "http://avidcruiser-avidtravelmediai.netdna-ssl.com/blog/wp-content/uploads/2015/09/NorwegianSun_Hubbard.jpeg",
+                "http://www.hdfondos.eu/pictures/2013/1115/1/ships-arctic-glacier-wallpaper-489256.jpg"
+            ],
+            "features":[
+                {
+                    "desc": "5400 pax",
+                    "icon": "users"
+                },
+                {
+                    "desc":"Sea view",
+                    "icon":"ship"
+                },
+                {
+                    "desc":"Queen-sized bed or two twin-sized beds",
+                    "icon":"bed"
+                },
+                {
+                    "desc":"Phone",
+                    "icon":"phone"
+                },
+                {
+                    "desc":"Mini-fridge",
+                    "icon":"beer"
+                }
+            ],
+            "trips":{
+                "name": "Trips available",
+                "key": "Trip",
+                "options": [
+                    "Trip 1",
+                    "Trip 2",
+                    "Trip 3",
+                    "Trip 4"
+                ]
+            },
+            "destinations":{
+                "name": "Destinations to go",
+                "key": "Destination",
+                "options": [
+                    "Anctartic",
+                    "Ushuaia",
+                    "Falklands"
+                ]
+            }
+        },
+        {
+            "name": "Sofia II",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "photos": [
+                "http://www.princess.com/images/cruise-tips-vacation-ideas/cruise-destinations/alaska-vacations/princess-cruise-ship-in-glacier-bay-alaska-281474979384707.jpg",
+                "http://avidcruiser-avidtravelmediai.netdna-ssl.com/blog/wp-content/uploads/2015/09/NorwegianSun_Hubbard.jpeg",
+                "http://www.hdfondos.eu/pictures/2013/1115/1/ships-arctic-glacier-wallpaper-489256.jpg"
+            ],
+            "features":[
+                {
+                    "desc": "5400 pax",
+                    "icon": "users"
+                },
+                {
+                    "desc":"Sea view",
+                    "icon":"ship"
+                },
+                {
+                    "desc":"Queen-sized bed or two twin-sized beds",
+                    "icon":"bed"
+                },
+                {
+                    "desc":"Phone",
+                    "icon":"phone"
+                },
+                {
+                    "desc":"Mini-fridge",
+                    "icon":"beer"
+                }
+            ],
+            "trips":{
+                "name": "Trips available",
+                "key": "Trip",
+                "options": [
+                    "Trip 1",
+                    "Trip 2",
+                    "Trip 3",
+                    "Trip 4"
+                ]
+            },
+            "destinations":{
+                "name": "Destinations to go",
+                "key": "Destination",
+                "options": [
+                    "Anctartic",
+                    "Ushuaia",
+                    "Falklands"
+                ]
+            }
+        },
+        {
+            "name": "Lady Marmalade",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "photos": [
+                "http://www.princess.com/images/cruise-tips-vacation-ideas/cruise-destinations/alaska-vacations/princess-cruise-ship-in-glacier-bay-alaska-281474979384707.jpg",
+                "http://avidcruiser-avidtravelmediai.netdna-ssl.com/blog/wp-content/uploads/2015/09/NorwegianSun_Hubbard.jpeg",
+                "http://www.hdfondos.eu/pictures/2013/1115/1/ships-arctic-glacier-wallpaper-489256.jpg"
+            ],
+            "features":[
+                {
+                    "desc": "5400 pax",
+                    "icon": "users"
+                },
+                {
+                    "desc":"Sea view",
+                    "icon":"ship"
+                },
+                {
+                    "desc":"Queen-sized bed or two twin-sized beds",
+                    "icon":"bed"
+                },
+                {
+                    "desc":"Phone",
+                    "icon":"phone"
+                },
+                {
+                    "desc":"Mini-fridge",
+                    "icon":"beer"
+                }
+            ],
+            "trips":{
+                "name": "Trips available",
+                "key": "Trip",
+                "options": [
+                    "Trip 1",
+                    "Trip 2",
+                    "Trip 3",
+                    "Trip 4"
+                ]
+            },
+            "destinations":{
+                "name": "Destinations to go",
+                "key": "Destination",
+                "options": [
+                    "Anctartic",
+                    "Ushuaia",
+                    "Falklands"
+                ]
+            }
+        },
+        {
+            "name": "Liberty",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "photos": [
+                "http://www.princess.com/images/cruise-tips-vacation-ideas/cruise-destinations/alaska-vacations/princess-cruise-ship-in-glacier-bay-alaska-281474979384707.jpg",
+                "http://avidcruiser-avidtravelmediai.netdna-ssl.com/blog/wp-content/uploads/2015/09/NorwegianSun_Hubbard.jpeg",
+                "http://www.hdfondos.eu/pictures/2013/1115/1/ships-arctic-glacier-wallpaper-489256.jpg"
+            ],
+            "features":[
+                {
+                    "desc": "5400 pax",
+                    "icon": "users"
+                },
+                {
+                    "desc":"Sea view",
+                    "icon":"ship"
+                },
+                {
+                    "desc":"Queen-sized bed or two twin-sized beds",
+                    "icon":"bed"
+                },
+                {
+                    "desc":"Phone",
+                    "icon":"phone"
+                },
+                {
+                    "desc":"Mini-fridge",
+                    "icon":"beer"
+                }
+            ],
+            "trips":{
+                "name": "Trips available",
+                "key": "Trip",
+                "options": [
+                    "Trip 1",
+                    "Trip 2",
+                    "Trip 3",
+                    "Trip 4"
+                ]
+            },
+            "destinations":{
+                "name": "Destinations to go",
+                "key": "Destination",
+                "options": [
+                    "Anctartic",
+                    "Ushuaia",
+                    "Falklands"
+                ]
+            }
+        }
+    ]
+}

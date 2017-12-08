@@ -1,0 +1,70 @@
+extends ../_layouts/base
+
+include ../_modules/hero/hero
+
+block config
+  //- Correct base url pathing for this page
+  - var baseUrl = '../'
+
+block content
+    main.contact.bg-secondary
+        +hero(site.data.contact.hero.title, site.data.contact.hero.desc, site.data.contact.hero.img)
+            .row
+                .col-xs-24.col-sm-12
+                    img.img-responsive(src="https://edge.alluremedia.com.au/m/l/2016/02/3-office-space.jpg")
+                .col-xs-24.col-sm-12
+                    .embed-responsive.-map
+                        iframe.embed-responsive-item(src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d73585.72146868586!2d-68.37284281199187!3d-54.80538483720541!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbc4c22b5bad109bf%3A0x5498473dba43ebfc!2sUshuaia%2C+Tierra+del+Fuego!5e0!3m2!1ses!2sar!4v1499527078324",frameborder="0", allowfullscreen)
+            .row
+                .col-xs-24.col-md-16
+                    h2 it's our pleasure to hear from you
+                    form.contact__form
+                        .contact__form-group
+                            input.contact__form-input(placeholder="Name", type="text", name="name")
+                            input.contact__form-input(placeholder="Email", type="email", name="email")
+                        .contact__form-group.-checkbox.clearfix
+                            label.contact__form-label Subject(s) of Interest
+                
+                            label.contact__form-checkbox(for="checkbox-1") 
+                                input(type="checkbox", value="Special Deals", id="checkbox-1")
+                                span Special Deals
+                            
+                            label.contact__form-checkbox(for="checkbox-2") 
+                                input(type="checkbox", value="Antarctic Cruises", id="checkbox-2")
+                                span Antarctic Cruises
+                                
+                            label.contact__form-checkbox(for="checkbox-3") 
+                                input(type="checkbox", value="Tierra del Fuego Excursions", id="checkbox-3")
+                                span Tierra del Fuego Excursions
+                                
+                            label.contact__form-checkbox(for="checkbox-4") 
+                                input(type="checkbox", value="One of Our Ships", id="checkbox-4")
+                                span One of Our Ships
+                                
+                            label.contact__form-checkbox(for="checkbox-5") 
+                                input(type="checkbox", value="Other", id="checkbox-5")
+                                span Other
+                            
+
+                        label.contact__form-label(for="message") Message
+                        textarea.contact__form-input(id="message", rows="6")
+                        input._button.-white(type="submit", value="Send")
+                .col-xs-24.col-md-8.bg-secondary.contact__info
+                    h4
+                        img(src="/images/logo-blue.png")
+                    span
+                        i.fa.fa-map-marker 
+                        | Nombre de Calle 456 <br>
+                        | Ushuaia, Tierra del Fuego, Argentina
+                    span
+                        strong Postal Code: 
+                        | 9410
+                    span
+                        i.fa.fa-phone 
+                        | +54 444 444 4444
+                        
+                    span
+                        i.fa.fa-envelope-o 
+                        a(href="mailto:contact@lemaire.com.ar", target="_blank") contacto@lemaire.com.ar
+                
+                          

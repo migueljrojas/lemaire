@@ -1,0 +1,89 @@
+{
+    "hero": {
+        "title": "Each destiny is a new Trip",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "img": "http://bucket1.glanacion.com/anexos/fotos/16/2170116.jpg"
+    },
+    "content": [
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    ],
+    "list": [
+        {
+            "name": "Antarctica",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "photos": [
+                "http://globalizacion.org/wp-content/uploads/2013/08/Antartida1.jpg",
+                "http://www.antarpply.com/app/webroot/files/Ushuaia_Weisheng-Lin.jpg",
+                "http://planetavivo.cienradios.com/wp-content/uploads/sites/9/2016/02/Glaciar-Perito-Morenoweb.jpg"
+            ],
+            "trips":{
+                "name": "Trips available",
+                "key": "Trip",
+                "options": [
+                    "Trip 1",
+                    "Trip 2",
+                    "Trip 3",
+                    "Trip 4"
+                ]
+            }
+        },
+        {
+            "name": "Ushuaia",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "photos": [
+                "http://globalizacion.org/wp-content/uploads/2013/08/Antartida1.jpg",
+                "http://www.antarpply.com/app/webroot/files/Ushuaia_Weisheng-Lin.jpg",
+                "http://planetavivo.cienradios.com/wp-content/uploads/sites/9/2016/02/Glaciar-Perito-Morenoweb.jpg"
+            ],
+            "trips":{
+                "name": "Trips available",
+                "key": "Trip",
+                "options": [
+                    "Trip 1",
+                    "Trip 2",
+                    "Trip 3",
+                    "Trip 4"
+                ]
+            }
+        },
+        {
+            "name": "Tierra del fuego",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "photos": [
+                "http://globalizacion.org/wp-content/uploads/2013/08/Antartida1.jpg",
+                "http://www.antarpply.com/app/webroot/files/Ushuaia_Weisheng-Lin.jpg",
+                "http://planetavivo.cienradios.com/wp-content/uploads/sites/9/2016/02/Glaciar-Perito-Morenoweb.jpg"
+            ],
+            "trips":{
+                "name": "Trips available",
+                "key": "Trip",
+                "options": [
+                    "Trip 1",
+                    "Trip 2",
+                    "Trip 3",
+                    "Trip 4"
+                ]
+            }
+        },
+        {
+            "name": "Glaciar Perito Moreno",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "photos": [
+                "http://globalizacion.org/wp-content/uploads/2013/08/Antartida1.jpg",
+                "http://www.antarpply.com/app/webroot/files/Ushuaia_Weisheng-Lin.jpg",
+                "http://planetavivo.cienradios.com/wp-content/uploads/sites/9/2016/02/Glaciar-Perito-Morenoweb.jpg"
+            ],
+            "trips":{
+                "name": "Trips available",
+                "key": "Trip",
+                "options": [
+                    "Trip 1",
+                    "Trip 2",
+                    "Trip 3",
+                    "Trip 4"
+                ]
+            }
+        }
+    ]
+}

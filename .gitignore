@@ -1,0 +1,8 @@
+node_modules
+*.log
+build
+tmp
+web
+.grunt
+.DS_Store
+bower_components

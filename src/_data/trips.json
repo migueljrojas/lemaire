@@ -1,0 +1,200 @@
+{
+    "hero": {
+        "title": "Carry on your next adventure",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "img": "https://www.australis.com/site/wp-content/uploads/2016/10/7-noches-ush-1440x765.jpg"
+    },
+    "content": [
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    ],
+    "list": [
+        {
+            "name": "Cape circle",
+            "price": "$14.000",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+            "photos": [
+                "http://blog.kallpatour.com/wp-content/uploads/trekking-and-canoes-trip-in-ushuaia-5.jpg",
+                "https://www.tangol.com/Fotos/Tours/ushuaia-esencial_825_201605180842462.JPG",
+                "http://www.nakaoutdoors.com.ar/img/posts/ushuaia_ice_trip_2010_imagen.jpg"
+            ],
+            "itinerary":[
+                {
+                    "desc": "Loren ipsum dolor",
+                    "icon": "Days 1-2: "
+                },
+                {
+                    "desc": "Loren ipsum dolor",
+                    "icon": "Days 3-4: "
+                },
+                {
+                    "desc": "Loren ipsum dolor",
+                    "icon": "Days 5-6: "
+                },
+                {
+                    "desc": "Loren ipsum dolor",
+                    "icon": "Day 7: "
+                }
+            ],
+            "trips":{
+                "name": "Trips available",
+                "key": "Trip",
+                "options": [
+                    "Trip 1",
+                    "Trip 2",
+                    "Trip 3",
+                    "Trip 4"
+                ]
+            },
+            "destinations":{
+                "name": "Destinations to go",
+                "key": "Destination",
+                "options": [
+                    "Anctartic",
+                    "Ushuaia",
+                    "Falklands"
+                ]
+            }
+        },
+        {
+            "name": "Discover Antarctic",
+            "price": "$14.000",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+            "photos": [
+                "http://blog.kallpatour.com/wp-content/uploads/trekking-and-canoes-trip-in-ushuaia-5.jpg",
+                "https://www.tangol.com/Fotos/Tours/ushuaia-esencial_825_201605180842462.JPG",
+                "http://www.nakaoutdoors.com.ar/img/posts/ushuaia_ice_trip_2010_imagen.jpg"
+            ],
+            "itinerary":[
+                {
+                    "desc": "Loren ipsum dolor",
+                    "icon": "Days 1-2: "
+                },
+                {
+                    "desc": "Loren ipsum dolor",
+                    "icon": "Days 3-4: "
+                },
+                {
+                    "desc": "Loren ipsum dolor",
+                    "icon": "Days 5-6: "
+                },
+                {
+                    "desc": "Loren ipsum dolor",
+                    "icon": "Day 7: "
+                }
+            ],
+            "trips":{
+                "name": "Trips available",
+                "key": "Trip",
+                "options": [
+                    "Trip 1",
+                    "Trip 2",
+                    "Trip 3",
+                    "Trip 4"
+                ]
+            },
+            "destinations":{
+                "name": "Destinations to go",
+                "key": "Destination",
+                "options": [
+                    "Anctartic",
+                    "Ushuaia",
+                    "Falklands"
+                ]
+            }
+        },
+        {
+            "name": "Conquer the Falklands",
+            "price": "$14.000",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+            "photos": [
+                "http://blog.kallpatour.com/wp-content/uploads/trekking-and-canoes-trip-in-ushuaia-5.jpg",
+                "https://www.tangol.com/Fotos/Tours/ushuaia-esencial_825_201605180842462.JPG",
+                "http://www.nakaoutdoors.com.ar/img/posts/ushuaia_ice_trip_2010_imagen.jpg"
+            ],
+            "itinerary":[
+                {
+                    "desc": "Loren ipsum dolor",
+                    "icon": "Days 1-2: "
+                },
+                {
+                    "desc": "Loren ipsum dolor",
+                    "icon": "Days 3-4: "
+                },
+                {
+                    "desc": "Loren ipsum dolor",
+                    "icon": "Days 5-6: "
+                },
+                {
+                    "desc": "Loren ipsum dolor",
+                    "icon": "Day 7: "
+                }
+            ],
+            "trips":{
+                "name": "Trips available",
+                "key": "Trip",
+                "options": [
+                    "Trip 1",
+                    "Trip 2",
+                    "Trip 3",
+                    "Trip 4"
+                ]
+            },
+            "destinations":{
+                "name": "Destinations to go",
+                "key": "Destination",
+                "options": [
+                    "Anctartic",
+                    "Ushuaia",
+                    "Falklands"
+                ]
+            }
+        },
+        {
+            "name": "The end of the world",
+            "price": "$14.000",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.","desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+            "photos": [
+                "http://blog.kallpatour.com/wp-content/uploads/trekking-and-canoes-trip-in-ushuaia-5.jpg",
+                "https://www.tangol.com/Fotos/Tours/ushuaia-esencial_825_201605180842462.JPG",
+                "http://www.nakaoutdoors.com.ar/img/posts/ushuaia_ice_trip_2010_imagen.jpg"
+            ],
+            "itinerary":[
+                {
+                    "desc": "Loren ipsum dolor",
+                    "icon": "Days 1-2: "
+                },
+                {
+                    "desc": "Loren ipsum dolor",
+                    "icon": "Days 3-4: "
+                },
+                {
+                    "desc": "Loren ipsum dolor",
+                    "icon": "Days 5-6: "
+                },
+                {
+                    "desc": "Loren ipsum dolor",
+                    "icon": "Day 7: "
+                }
+            ],
+            "trips":{
+                "name": "Trips available",
+                "key": "Trip",
+                "options": [
+                    "Trip 1",
+                    "Trip 2",
+                    "Trip 3",
+                    "Trip 4"
+                ]
+            },
+            "destinations":{
+                "name": "Destinations to go",
+                "key": "Destination",
+                "options": [
+                    "Anctartic",
+                    "Ushuaia",
+                    "Falklands"
+                ]
+            }
+        }
+    ]
+}

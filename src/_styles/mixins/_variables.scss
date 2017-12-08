@@ -1,0 +1,28 @@
+$white: #fff;
+$black: #121212;
+$darkestGray: #333;
+$darkGray: #6b6b6b;
+$midGray: #999;
+$lightGray: #ebebeb;
+$lightestGray: #f4f7f8;
+$blue: #6684f2;
+$darkBlue: #003f4e;
+
+$link: $blue;
+$linkHover: $blue - #333;
+$text: $midGray;
+$textLight: $white;
+$textDark: $black;
+$accent: $blue;
+$bg: $white;
+$bgSecondary: $lightestGray;
+$bgDark: $darkestGray;
+
+$base: 40px;
+$radius: 20px;
+
+$duration: 0.3s;
+$easing: cubic-bezier(.785, .135, .15, .86);
+$easingLight: ease;
+
+$mainFont: 'Lato', sans-serif;

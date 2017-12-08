@@ -1,0 +1,89 @@
+{
+    "hero": {
+        "title": "Activities",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "img": "http://4.bp.blogspot.com/-YY0AuCAYeJY/VHYauJ3o-mI/AAAAAAAAA4o/eyZmGkwm9ZU/s1600/gable%2B009.JPG"
+    },
+    "content": [
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    ],
+    "list": [
+        {
+            "name": "Kayaking",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "photos": [
+"https://www.diariodekayak.es/wp-content/uploads/2015/07/kayak-pista.jpg",
+"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzqN6qXMGWuzifA9Ol87ljw0uIA7B-Ppr6blZD7FVE2l67XQBd",
+"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSE-bqE3YBi1Q4Fw_pyKMj6ItDo7MtHqrMVpI0so_fdVVq8aiKl"
+            ],
+            "trips":{
+                "name": "Trips available",
+                "key": "adventure",
+                "options": [
+                    "Adventure 1",
+                    "Adventure 2",
+                    "Adventure 3",
+                    "Adventure 4"
+                ]
+            }
+        },
+        {
+            "name": "Climbing",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "photos": [
+"https://www.diariodekayak.es/wp-content/uploads/2015/07/kayak-pista.jpg",
+"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzqN6qXMGWuzifA9Ol87ljw0uIA7B-Ppr6blZD7FVE2l67XQBd",
+"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSE-bqE3YBi1Q4Fw_pyKMj6ItDo7MtHqrMVpI0so_fdVVq8aiKl"
+            ],
+            "trips":{
+                "name": "Trips available",
+                "key": "adventure",
+                "options": [
+                    "Adventure 1",
+                    "Adventure 2",
+                    "Adventure 3",
+                    "Adventure 4"
+                ]
+            }
+        },
+        {
+            "name": "Trekking",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "photos": [
+"https://www.diariodekayak.es/wp-content/uploads/2015/07/kayak-pista.jpg",
+"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzqN6qXMGWuzifA9Ol87ljw0uIA7B-Ppr6blZD7FVE2l67XQBd",
+"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSE-bqE3YBi1Q4Fw_pyKMj6ItDo7MtHqrMVpI0so_fdVVq8aiKl"
+            ],
+            "trips":{
+                "name": "Trips available",
+                "key": "adventure",
+                "options": [
+                    "Adventure 1",
+                    "Adventure 2",
+                    "Adventure 3",
+                    "Adventure 4"
+                ]
+            }
+        },
+        {
+            "name": "Skiing",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "photos": [
+"https://www.diariodekayak.es/wp-content/uploads/2015/07/kayak-pista.jpg",
+"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzqN6qXMGWuzifA9Ol87ljw0uIA7B-Ppr6blZD7FVE2l67XQBd",
+"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSE-bqE3YBi1Q4Fw_pyKMj6ItDo7MtHqrMVpI0so_fdVVq8aiKl"
+            ],
+            "trips":{
+                "name": "Trips available",
+                "key": "adventure",
+                "options": [
+                    "Adventure 1",
+                    "Adventure 2",
+                    "Adventure 3",
+                    "Adventure 4"
+                ]
+            }
+        }
+    ]
+}

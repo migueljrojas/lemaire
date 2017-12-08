@@ -1,0 +1,62 @@
+footer.footer
+    .container
+        .row
+            .col-xs-24
+                .row
+                    .col-xs-24.col-md-6.footer__suscribe
+                        h5.wow.fadeInUp Newsletter
+                        form.footer__suscribe__form.wow.fadeInUp
+                            label Sign up for the Newsletter
+                            .footer__suscribe__form-group
+                                input.footer__suscribe__form-input(type="email", placeholder="Email address")
+                                input._button.footer__suscribe__form-input(type="submit", value="Subscribe")
+                    .col-xs-24.col-sm-12.col-md-8.col-md-offset-1.footer__list
+                        .footer__list-col.wow.fadeInUp
+                            h5 Information
+                            ul
+                                li
+                                    a(href="#") About Us
+                                li
+                                    a(href="#") FAQ
+                                li
+                                    a(href="#") Contact Us
+                        .footer__list-col.wow.fadeInUp
+                            h5 Experience
+                            ul
+                                li
+                                    a(href="#") Tours
+                                li
+                                    a(href="#") Patagonia
+                                li
+                                    a(href="#") Ships
+                        .footer__list-col.wow.fadeInUp
+                            h5 Contact
+                            ul
+                                li
+                                    p.small
+                                        i.fa.fa-map-marker   
+                                        |  Street 645, Ushuaia, Argentina.
+                            ul
+                                li.small
+                                    p.small
+                                        i.fa.fa-phone
+                                        |  +54 11 4566 6544
+                                    
+                    .col-xs-24.col-sm-12.col-md-7.col-md-offset-2.footer__list
+                        .col-xs-24.footer__logo.wow.fadeInUp
+                            img(src="/images/logo-blue.png")
+                            .col-xs-24
+                                ul.footer__social.wow.fadeInUp
+                                    each red in site.data.social
+                                        li
+                                            a(href=red.url, target="_blank")
+                                                i(class="fa fa-#{red.name}")
+                                    
+                .row
+                    .col-xs-24
+                        p.footer__disclaimer.small
+                            | Le Maire. Franchise of
+                            img(src="/images/lozada-logo.jpg") 
+                            | Represented in Ushuaia by Isla de los Fuegos EVyT Leg Nº: 12.445
+                    .col-xs-24.footer__credits
+                        a.small(href="http://elemsoft.net") Diseño y Desarrollo por Elemsoft

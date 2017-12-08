@@ -1,0 +1,304 @@
+{
+    "hero": {
+        "title": "Discover Antarctica",
+        "subtitle": "Morbi mollis vestibulum sollicitudin. Nunc in eros a justo facilisis rutrum. Aenean id ullamcorper libero. Vestibulum imperdiet nibh vel magna."
+    },
+    "searchWidget": [
+        {
+            "name": "Destination",
+            "key": "dest",
+            "options": [
+                "Destination 1",
+                "Destination 2",
+                "Destination 3",
+                "Destination 4"
+            ]
+        },
+        {
+            "name": "Trip",
+            "key": "Trip",
+            "options": [
+                "Trip 1",
+                "Trip 2"
+            ]
+        },
+        {
+            "name": "Ship",
+            "key": "ship",
+            "options": [
+                "Ship 1",
+                "Ship 2",
+                "Ship 3"
+            ]
+        },
+        {
+            "name": "Month of departure",
+            "key": "month",
+            "options": [
+                "January",
+                "February",
+                "March",
+                "April",
+                "May",
+                "June",
+                "July",
+                "August",
+                "September",
+                "October",
+                "November",
+                "December"
+            ]
+        }
+        ,{
+            "name": "Activity",
+            "key": "activity",
+            "options": [
+                "Activity 1",
+                "Activity 2",
+                "Activity 3",
+                "Activity 4"
+            ]
+        },
+        {
+            "name": "Price range",
+            "key": "price",
+            "options": [
+                "$500 - $1000",
+                "$1000 - $5000",
+                "$5000 - $10000"
+            ]
+        },
+        {
+            "name": "Days",
+            "key": "days",
+            "options": [
+                "2 - 3",
+                "3 - 5",
+                "7 - 10",
+                "12 - 15"
+            ]
+        }
+    ],
+    "topDest": [
+        {
+            "country":"Argentina",
+            "city": "Ushuaia",
+            "days":"3 days - 2 nights",
+            "price": "$350",
+            "date": "23/10/2017",
+            "img": "/images/home/card-1.jpg",
+            "rate": 4
+        },
+        {
+            "country":"",
+            "city": "Falkland Islands",
+            "days":"3 days - 2 nights",
+            "price": "$450",
+            "date": "23/10/2017",
+            "img": "/images/home/card-2.jpg",
+            "rate": 3
+        },
+        {
+            "country":"Argentina",
+            "city": "Patagonia",
+            "days":"3 days - 2 nights",
+            "price": "$500",
+            "date": "23/10/2017",
+            "img": "/images/home/card-3.jpg",
+            "rate": 5
+        },
+        {
+            "country":"Argentina",
+            "city": "Glaciar Perito Moreno",
+            "days":"3 days - 2 nights",
+            "price": "$600",
+            "date": "23/10/2017",
+            "img": "/images/home/card-4.jpg",
+            "rate": 5
+        }
+    ],
+    "about": {
+        "title": "Welcome to LeMaire travel",
+        "heading": "Antarctic tours",
+        "content": [
+            "Morbi mollis vestibulum sollicitudin. Nunc in eros a justo facilisis rutrum. Aenean id ullamcorper libero. Vestibulum imperdiet nibh vel magna lacinia ultrices. Tortor nec commodo ultricies, lectus nisl facilisis enim, vitae viverra urna nulla sed turpis. Nullam lacinia faucibus risus, a euismod lorem tincidunt id.",
+            "Donec maximus placerat tempor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse faucibus sed dolor."
+        ],
+        "data": [
+            {
+                "icon":"suitcase",
+                "number": "16",
+                "text": "Tours"
+            },
+            {
+                "icon":"map-marker",
+                "number": "10",
+                "text": "Amazing Destinations"
+            },
+            {
+                "icon":"ship",
+                "number": "4",
+                "text": "Ships"
+            },
+            {
+                "icon":"thumbs-o-up",
+                "number": "+10000",
+                "text": "Happy travelers"
+            }
+        ]
+    },
+    "features": [
+        {
+            "icon": "money",
+            "name": "Best Prices",
+            "text": "Aliquam vulputate, tortor nec commodo ultricies, lectus nisl facilisis enim, vitae viverra urna nulla sed turpis."
+        },
+        {
+            "icon": "globe",
+            "name": "First Class Service",
+            "text": "Tortor nec commodo ultricies, lectus nisl facilisis enim, vitae viverra urna."
+        },
+        {
+            "icon": "eye",
+            "name": "Trip Advisor",
+            "text": "Vulputate tortor nec commodo ultricies, lectus nisl facilisis enim, vitae viverra urna nulla sed turpis."
+        }
+    ],
+    "destinations": {
+        "heading": "Special Offers",
+        "title": "Top Destinations",
+        "text": "Morbi mollis vestibulum sollicitudin. Nunc in eros a justo facilisis rutrum. Aenean id ullamcorper libero. Vestibulum imperdiet nibh vel magna lacinia commodo ultricies, lectus nisl facilisis enim, vitae viverra urna nulla sed turpis. Nullam lacinia faucibus risus, a euismod lorem tincidunt id.",
+        "list": [
+            {
+                "img": "/images/home/dest-1.jpg",
+                "name": "Falklands",
+                "price": "$290"
+            },
+            {
+                "img": "/images/home/dest-2.jpg",
+                "name": "Ushuaia",
+                "price": "$290"
+            },
+            {
+                "img": "/images/home/dest-3.jpg",
+                "name": "Antarctic",
+                "price": "$190"
+            },
+            {
+                "img": "/images/home/dest-2.jpg",
+                "name": "Ushuaia 2",
+                "price": "$290"
+            },
+            {
+                "img": "/images/home/dest-3.jpg",
+                "name": "Antarctic 2",
+                "price": "$190"
+            },
+            {
+                "img": "/images/home/dest-1.jpg",
+                "name": "Falklands 2",
+                "price": "$290"
+            }
+        ]
+    },
+    "tours": {
+        "heading": "Check out our best trips",
+        "title": "Special Offers",
+        "list": [
+            {
+                "img":"/images/home/tour-1.jpg",
+                "heading":"Antartica",
+                "name": "Actarctica Classic",
+                "desc": "Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+                "price": "$130",
+                "days": "4 days - 3 nights",
+                "rate": 4
+            },
+            {
+                "img":"/images/home/tour-2.jpg",
+                "heading":"Antartica",
+                "name": "Crossing the Circle",
+                "desc": "Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+                "price": "$290",
+                "days": "4 days - 3 nights",
+                "rate": 3
+            },
+            {
+                "img":"/images/home/tour-3.jpg",
+                "heading":"Patagonia",
+                "name": "Cape Horn",
+                "desc": "Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+                "price": "$190",
+                "days": "4 days - 3 nights",
+                "rate": 5
+            },
+            {
+                "img":"/images/home/tour-4.jpg",
+                "heading":"Patagonia",
+                "name": "Tierra del Fuego",
+                "desc": "Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+                "price": "$230",
+                "days": "4 days - 3 nights",
+                "rate": 4
+            }
+        ]
+    },
+    "testimonials": {
+        "heading": "What they say",
+        "title": "Happy travelers recommend us",
+        "list": [
+            {
+                "img": "/images/home/testimonial-1.jpg",
+                "name":"John Doe",
+                "location":"London, England",
+                "desc": "Donec maximus placerat tempor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse faucibus sed dolor eget posuere.",
+                "tour": "Tour Ushuaia"
+            },
+            {
+                "img": "/images/home/testimonial-2.jpg",
+                "name":"John Doe",
+                "location":"Paris, France",
+                "desc": "Donec maximus placerat tempor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse faucibus sed dolor eget posuere.",
+                "tour": "Tour Ushuaia"
+            },
+            {
+                "img": "/images/home/testimonial-3.jpg",
+                "name":"Jane Doe",
+                "location":"Boston, USA",
+                "desc": "Donec maximus placerat tempor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse faucibus sed dolor eget posuere.",
+                "tour": "Tour Ushuaia"
+            },
+            {
+                "img": "/images/home/testimonial-2.jpg",
+                "name":"John Doe",
+                "location":"Santiago, Chile",
+                "desc": "Donec maximus placerat tempor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse faucibus sed dolor eget posuere.",
+                "tour": "Tour Ushuaia"
+            },
+            {
+                "img": "/images/home/testimonial-3.jpg",
+                "name":"Jane Doe",
+                "location":"Rome, Italy",
+                "desc": "Donec maximus placerat tempor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse faucibus sed dolor eget posuere.",
+                "tour": "Tour Ushuaia"
+            },
+            {
+                "img": "/images/home/testimonial-1.jpg",
+                "name":"John Doe",
+                "location":"Berlin, Germany",
+                "desc": "Donec maximus placerat tempor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse faucibus sed dolor eget posuere.",
+                "tour": "Tour Ushuaia"
+            }
+        ]
+    },
+    "gallery":[
+        "http://www.lanueva.com/upload/news/dvallejos/2017/01/587fb85f9adca_large.jpg",
+        "http://static.vix.com/es/sites/default/files/styles/large/public/btg/curiosidades.batanga.com/files/20-fotos-y-datos-interesantes-sobre-la-Antartida-que-tienes-que-conocer-6.jpg",
+        "http://intergatur.com.ar/wp-content/uploads/2017/01/Patagonia.jpg",
+        "http://dxgov9tdfq2kz.cloudfront.net/wp-content/uploads/2015/12/Perito-Moreno-3-1024x676.jpg",
+        "http://images.radiotimes.com/namedimage/Follow_An_Island_Parish_to_the_Falklands.jpg?quality=85&mode=crop&width=620&height=374&404=tv&url=/uploads/images/original/91214.jpg",
+        "http://3rdplanet.ru/wp-content/uploads/2014/03/bashnya-gerkulesa-4.jpg",
+        "http://www.losandes.com.ar/files/image/17/04/image58e8807d2ec385.46214031.jpg",
+        "https://www.ice-tracks.com/wp-content/uploads/2015/03/UshuaiaExcParque1-1.jpg"
+    ]
+}

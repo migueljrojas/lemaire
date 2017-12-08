@@ -1,0 +1,49 @@
+extends ../_layouts/base
+
+include ../_modules/hero/hero
+include ../_modules/dropdown/dropdown
+include ../_modules/slider/slider
+
+block config
+  //- Correct base url pathing for this page
+  - var baseUrl = '../'
+
+block content
+    main.trips
+        +hero(site.data.trips.hero.title, site.data.trips.hero.desc, site.data.trips.hero.img)
+            
+            form.search-widget
+                ul.search-widget__drop-list
+                    each list in site.data.home.searchWidget
+                        li
+                            +dropdown(list)
+                input._button(type="submit", value="Search Now")
+            
+            each item in site.data.trips.content
+                p= item
+            
+            h2 All avaliable trips
+            .item-list.item-list--trips
+                each item in site.data.trips.list
+                    .item-list__item
+                        .item-list__slider-col
+                            +slider('item-list__slider')
+                                each photo in item.photos
+                                    .item-list__slide
+                                        img(src=photo)
+                                        
+                        .item-list__data-col
+                            h3= item.name
+                            p= item.desc
+                            .col-xs-24.col-sm-12.features
+                                p $13,695 – $22,495
+                            .col-xs-24.col-sm-12.features
+                                p
+                                    strong Ship: 
+                                    | Ship name
+                            .col-xs-24.features
+                                P 
+                                    strong October 18, 2017 – November 6, 2017  
+                                    | (19 days)
+                            a._button.-small(href="/activity-detail") Ver más >>
+                            

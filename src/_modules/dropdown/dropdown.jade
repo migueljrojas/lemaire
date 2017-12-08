@@ -1,0 +1,6 @@
+mixin dropdown(data)
+    .dropdown
+        select
+            option(value="", disabled, selected, hidden)=data.name
+            each item, index in data.options
+                option(value="#{data.key}-#{index + 1}")= item

@@ -1,0 +1,120 @@
+.hero {
+    padding: 60% 0;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    background: $darkBlue;
+
+    @include breakpoint(sm) {
+        padding: 40% 0;
+    }
+
+    @include breakpoint(md) {
+        padding: 25% 0;
+    }
+
+    @include breakpoint(lg) {
+        padding: 20% 0;
+    }
+
+    &__img {
+        position: absolute;
+        top: 50%;
+        left:50%;
+        transform: translate3d(-50%, -50%, 0);
+        height: 100%;
+        min-width: 100%;
+        opacity: .5;
+
+        @include breakpoint(lg) {
+            min-width: 100%;
+            min-height: 100%;
+            height: auto;
+        }
+    }
+
+    &__heading {
+        position: absolute;
+        top:55%;
+        transform: translateY(-50%);
+        width: 100%;
+        text-align: center;
+        color:$white;
+        padding: 0 10%;
+
+        @include breakpoint(sm) {
+            padding: 0 15%;
+        }
+        @include breakpoint(md) {
+            padding: 0 20%;
+        }
+        @include breakpoint(lg) {
+            padding: 0 30%;
+        }
+    }
+
+    &__title {
+        color: inherit;
+        font-size: 48px;
+        margin-bottom: $base/2;
+        @include breakpoint(sm) {
+            font-size: 60px;
+        }
+    }
+
+    &__desc {
+        @include breakpoint(sm) {
+            font-size: 21px;
+        }
+    }
+
+    &__container {
+        @include breakpoint(sm) {
+            margin-top: -10%;
+            padding-bottom: 10%;
+        }
+        @include breakpoint(md) {
+            margin-top: -5%;
+            padding-bottom: 5%;
+        }
+    }
+
+    &__content {
+        padding-top: 10%;
+        padding-bottom: 10%;
+        box-shadow: 0 0 20px rgba(0,0,0,.1);
+        background: $white;
+        @include breakpoint(sm) {
+            padding: 7.5%;
+        }
+        @include breakpoint(md) {
+            padding: 4%;
+        }
+
+        h2 {
+            margin-bottom: $base/2;
+            font-size:24px;
+            @include breakpoint(sm) {
+                font-size:32px;
+            }
+        }
+
+        ul{
+            list-style: circle;
+            margin-bottom: $base/2;
+            li {
+                margin-bottom: 10px;
+                @include breakpoint(sm) {
+                    font-size:18px;
+                }
+            }
+        }
+
+        p{
+            margin-bottom: $base/2;
+            @include breakpoint(sm) {
+                font-size:16px;
+            }
+        }
+    }
+}

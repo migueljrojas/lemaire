@@ -1,0 +1,145 @@
+.item-list {
+
+    $i: &;
+
+    &__item {
+        display: flex;
+        align-items: stretch;
+        align-content: stretch;
+
+        &:nth-child(even) {
+            #{$i}__slider-col {
+                order: 2;
+            }
+        }
+    }
+
+    &__slider-col {
+        flex-basis: 100%;
+        width:100%;
+        @include breakpoint(sm) {
+            flex-basis: 50%;
+            width:50%;
+        }
+    }
+
+    &__slider {
+        height: 100%;
+        .slick-list,
+        .slick-track {
+            height: 100%;
+            max-height: 550px;
+        }
+        .slick-dots {
+            bottom: 0;
+        }
+
+        &.slick-dotted.slick-slider {
+            margin-bottom: 0;
+        }
+    }
+
+    &__slide {
+        overflow: hidden;
+
+        img {
+            height: 100%;
+            position: relative;
+            left:50%;
+            transform: translateX(-50%);
+            min-height: 350px;
+        }
+    }
+
+    &__data-col {
+        flex-basis: 100%;
+        width:100%;
+        background: $bgSecondary;
+        padding: $base;
+        border-bottom: 1px solid $blue;
+
+        @include breakpoint(sm) {
+            flex-basis: 50%;
+            width:50%;
+        }
+
+        h3{
+            color:$blue;
+        }
+
+        .features {
+            list-style: none;
+            columns: 2;
+            li {
+                font-size: 12px;
+                i {
+                    margin-right: 5px;
+                }
+            }
+        }
+
+        .dropdown {
+            background: $blue;
+            border-radius: 5px;
+            margin-bottom: $base/2;
+        }
+    }
+
+    &--trips {
+
+        #{$i}__item {
+
+            &:nth-child(even) {
+                #{$i}__data-col {
+                    & > p {
+                        display: none;
+                    }
+                }
+            }
+        }
+
+        #{$i}__slider-col {
+            display:none;
+            @include breakpoint(sm) {
+                flex-basis: 30%;
+                width:30%;
+                display: block;
+            }
+        }
+
+        #{$i}__data-col {
+            & > p {
+                color:#c00;
+                font-size: 12px;
+                margin-bottom: 10px;
+            }
+
+            .features {
+                columns: 1;
+                padding-left: 0;
+
+                p{
+                    font-size: 12px;
+                    margin-bottom: 10px;
+                }
+            }
+
+            @include breakpoint(sm) {
+                flex-basis: 70%;
+                width:70%;
+            }
+        }
+
+        #{$i}__slide {
+            img {
+                height: 100%;
+                position: relative;
+                left:50%;
+                transform: translateX(-50%);
+                max-height: 230px;
+                min-height: initial;
+                min-width: 100%;
+            }
+        }
+    }
+}

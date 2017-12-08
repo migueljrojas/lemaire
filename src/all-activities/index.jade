@@ -1,0 +1,32 @@
+extends ../_layouts/base
+
+include ../_modules/hero/hero
+include ../_modules/dropdown/dropdown
+include ../_modules/slider/slider
+
+block config
+  //- Correct base url pathing for this page
+  - var baseUrl = '../'
+
+block content
+    main.activities
+        +hero(site.data.activities.hero.title, site.data.activities.hero.desc, site.data.activities.hero.img)
+            each item in site.data.activities.content
+                p= item
+            
+            h2 List of Activities
+            .item-list
+                each item in site.data.activities.list
+                    .item-list__item
+                        .item-list__slider-col
+                            +slider('item-list__slider')
+                                each photo in item.photos
+                                    .item-list__slide
+                                        img(src=photo)
+                                        
+                        .item-list__data-col
+                            h3= item.name
+                            p= item.desc
+                            +dropdown(item.trips)
+                            a._button.-small(href="/activity-detail") Ver más >>
+                            

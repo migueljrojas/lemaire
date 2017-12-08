@@ -1,0 +1,66 @@
+extends ../_layouts/base
+
+include ../_modules/dropdown/dropdown
+include ../_modules/slider/slider
+include ../_modules/faq/faq
+
+block config
+  //- Correct base url pathing for this page
+  - var baseUrl = '../'
+
+block content
+    .main.detail
+        
+        section.container-fluid.detail__hero
+            .row
+                .col-xs-24.col-sm-20.col-sm-offset-2.col-md-16.col-md-offset-4.col-lg-14.col-lg-offset-5
+                    h1.detail__title Destination Name
+                    p.detail__desc Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        section.detail__content.bg-secondary
+            .container
+                .row
+                    .col-xs-24.col-sm-16.col-md-12
+                        .detail__col
+                            h2 All about Destination
+                            .detail__divider
+                            p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            .detail__divider
+                            .row
+                                .col-xs-24.col-md-12
+                                    h3 Activities
+                                    .detail__divider
+                                    +dropdown(site.data.home.searchWidget[4])
+                                    a._button.-small(href="#") Go to Activity page
+                                .col-xs-24.col-md-12
+                                    h3 Trips
+                                    .detail__divider
+                                    +dropdown(site.data.home.searchWidget[1])
+                                    a._button.-small(href="#") Go to trip page
+                                
+                        .detail__col
+                            h2 FAQ about Destination 
+                            .detail__divider
+                            each faq in site.data.faq.list
+                                +faq(faq)
+                        
+                    .col-xs-24.col-sm-16.col-md-12
+                        .detail__col.clearfix
+                            each image, index in site.data.home.gallery
+                                .col-xs-12.col-sm-6.detail__gallery
+                                    a.detail__gallery__image(href=image, title="caption")
+                                        img(src=image)
+                        .detail__col
+                            .embed-responsive.-map
+                                iframe(src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d162412.75080202293!2d-73.26977778272234!3d-50.50255530245923!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbda4c963217850c3%3A0xa481a2efaf7479be!2sGlaciar+Perito+Moreno!5e0!3m2!1ses!2sar!4v1499704696492",frameborder="0",style="border:0",allowfullscreen)
+                                
+                        .detail__col
+                            h2 More info
+                            .detail__divider
+                            form.detail__contacto__form
+                                .detail__contacto__form-group
+                                    input.detail__contacto__form-input(placeholder="Name", type="text", name="name")
+                                    input.detail__contacto__form-input(placeholder="Email", type="email", name="email")
+
+                                label.detail__contacto__form-label(for="message") Message
+                                textarea.detail__contacto__form-input(name="message", rows="6")
+                                input._button.-white(type="submit", value="Send")

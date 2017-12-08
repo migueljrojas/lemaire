@@ -1,0 +1,56 @@
+.-hide {
+    display: none!important;
+}
+
+.-hideOverflow {
+    overflow: hidden;
+}
+
+.-static{
+    position: static;
+}
+
+.-blur {
+    filter: blur(7px);
+}
+
+.bg-secondary {
+    background: $bgSecondary;
+}
+
+.-vertical-space{
+    padding-top: $base;
+    padding-bottom: $base;
+
+    &-top {
+        padding-top: $base;
+    }
+
+    &-bottom {
+        padding-bottom: $base;
+    }
+}
+
+.embed-responsive.-map{
+    padding-bottom: 56.25%;
+
+    @include breakpoint(sm){
+        padding-bottom: 45%;
+    }
+
+    @include breakpoint(md){
+        padding-bottom: 30%;
+    }
+}
+
+.container.-half {
+    @include breakpoint(sm) {
+        width: (732px/2);
+    }
+    @include breakpoint(md) {
+        width: (952px/2);
+    }
+    @include breakpoint(lg) {
+        width: (1152px/2);
+    }
+}

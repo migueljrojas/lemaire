@@ -1,0 +1,12 @@
+mixin hero(title, desc, img)
+    section.hero
+        img.hero__img(src=img)
+        .hero__heading
+            h1.hero__title=title
+            p.hero__desc=desc
+    section.container.hero__container
+        .row
+            .col-xs-24.col-sm-20.col-sm-offset-2.col-md-18.col-md-offset-3.col-lg-16.col-lg-offset-4.hero__content
+                if block
+                    block
+                
